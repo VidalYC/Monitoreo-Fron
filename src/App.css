@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --green: hsl(162, 45%, 56%);
+    --lead: hsl(162, 2%, 56%);
+    --blue: hsl(220, 85%, 57%);
+    --violet: hsl(272, 92%, 32%);
+    --text-white: hsl(0, 0%, 100%);
+    --text-light-gray: hsl(0, 0%, 90%);
+    --body-bg-color: hsl(200, 54%, 12%);
+    --glass-bg-color: hsl(0, 0%, 100%, 0.05);
+    --border-color: hsl(0, 0%, 100%, 0.25);
+    --blur: blur(10px);
+    --button-hover-color: hsl(0, 0%, 0%, 0.3);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--body-bg-color);
+    color: var(--text-light-gray);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+body::after,
+body::before{
+    content: '';
+    position: fixed;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    z-index: -1;
+    filter: blur(150px);
+    opacity: 0.5;
+}
+
+body::before{
+    background-color: var(--blue);
+    left: 0;
+    bottom: 0;
+    transform: translate(-50%);
+}
+
+body::after{
+    background-color: var(--violet);
+    right: 0;
+    top: 0;
+    transform: 50%;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.gradient-text{
+    background: linear-gradient(to right, var(--green), var(--lead));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.form-main{
+    min-height: 100vh;
+    padding: 60px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-content{
+    width: 100%;
+    max-width: 450px;
+    position: relative;
+    z-index: 1;
+}
+
+.form-content .circle-1,
+.form-content .circle-2,
+.form-content .circle-3{
+    position: absolute;
+    background: linear-gradient(to right, var(--blue), var(--violet));
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.form-content .circle-1{
+    height: 120px;
+    width: 120px;
+    left: 0;
+    top: 10%;
+    transform: translateX(-50%);
+}
+
+.form-content .circle-2{
+    height: 80px;
+    width: 80px;
+    right: 0;
+    bottom: 0;
+    transform: translate(20%, 20%);
+}
+
+.form-content .circle-3{
+    height: 50px;
+    width: 50px;
+    right: 10%;
+    top: 10%;
+}
+
+.form-content .box{
+    border-color: var(--glass-bg-color);
+    border: 1px solid var(--border-color);
+    padding: 40px 50px;
+    border-radius: 20px;
+    backdrop-filter: var(--blur);
+}
+
+.form-content h3{
+    font-size: 28px;
+    text-align: center;
+    line-height: 1.2;
+    color: var(--text-white);
+    font-weight: 500;
+}
+
+.form-content form{
+    margin: 25px 0 20px;
+}
+
+.form-content .input-box{
+    margin-bottom: 25px;
+}
+
+.form-content ::placeholder{
+    color: inherit;
+    opacity: 1;
+}
+
+.form-content .input-control{
+    display: block;
+    height: 45px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom:  1px solid var(--border-color);
+    color: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+.form-content .input-control:focus{
+    outline: none;
+}
+
+.form-content .input-link{
+    margin-top: 10px;
+    text-align: right;
+}
+
+.form-content .btn{
+    height: 45px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 25px;
+    user-select: none;
+    background: linear-gradient(to right, var(--green), var(--lead));
+    border: none;
+    color: var(--text-white);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.form-content .btn::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    transition: backgraund-color 0.5s ease;
+    z-index: -1;
+}
+
+.form-content .btn:hover::before{
+    background-color: var(--button-hover-color);
+}
+
+.form-content p{
+    text-align: center;
+}
+
+@media(max-width: 575px){
+    body::after
+    body::before{
+        height: 250px;
+        width: 250px;
+        filter: blur(100px);
+    }
+
+    .form-content .box{
+        padding: 25px;
+    }
+
+    .form-content h3{
+        font-size: 24px;
+    }
+}
+
+.btn-neon{
+    position: relative;
+    display: inline-block;
+    padding: 12px 25px;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.btn-neon:hover{
+    background: #52ce8a;
+    box-shadow: 0 0 10px #52ce8a, 0 0 40px #52ce8a, 0 0 80px #52ce8a;
+    transition-delay: 1s;
+}
+
+.btn-neon span{
+    position: absolute;
+    display: block;
+}
+
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#52ce8a);
+}
+
+.btn-neon:hover #span1{
+    left: 100%;
+    transition: 1s;
+}
+
+#span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#52ce8a);
+}
+
+.btn-neon:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+#span2{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#52ce8a);
+}
+
+.btn-neon:hover #span2{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+#span4{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#52ce8a);
+}
+
+.btn-neon:hover #span4{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento{
+    color: #52ce8a;
+}
+
+header{
+    background-color: #121615;
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+header a:hover{
+    color: #52ce8a;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) ,url(https://pakhotin.org/wp-content/uploads/2019/02/dreamstime_m_167543549-1024x678.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1{
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#hero h1:hover{
+    color: white;
+    text-shadow: 0 0 10px white,
+    0 0 20px white,
+    0 0 40px white,
+    0 0 80px white
+}
+
+#somos{
+    background-color: #121615;   
+}
+
+#somos h2{
+    margin-bottom: 5%;
+}
+
+#somos .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#que-es{
+    background-color: white;
+    color: #121615;
+}
+
+#que-es .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#que-es h2{
+    margin-top: 0;
+    margin-bottom: 5%;
+}
+
+#contactanos{
+    background-color: #121615;
+}
+
+#contactanos .container{
+    text-align: center;
+}
+
+@media (min-width: 420px){
+
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #hero .h1{
+        font-size: 50px;
+    }
+
+    #somos .container{
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    #que-es .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #que-es .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding: 0px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #que-es .msg{
+        background-image: url('./assets/Que.png');
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+    }
+
+    #contactanos .container a{
+        padding: 50px 10px;
+        font-size: 50px;
+        color: white;
+        transition: all 300ms;
+    }
+
+    #contactanos .container .whatsapp{
+        color: #25D366;
+    }
+
+    #contactanos .container .gmail{
+        color: #db4a39;
+    }
+
+    #contactanos .container .facebook{
+        color: #3b5998;
+    }
+
+    #contactanos .container a:hover{
+        transform: scale(1.5);
+    }
+
+
+}
