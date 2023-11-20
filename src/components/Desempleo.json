@@ -1,0 +1,1587 @@
+[
+    {
+        "date": 2001,
+        "Periodo": "Enero",
+        
+        "Valor": 16.6
+       
+    },
+    {
+        "date": 2001,
+        "Periodo": "Febrero",
+       
+        "Valor": 17.4
+        
+    },
+    {
+        "date": 2001,
+        "Periodo": "Marzo",
+       
+        "Valor": 15.8
+    },
+    {
+        "date": 2001,
+        "Periodo": "Abril",
+       
+        "Valor": 14.5
+    },
+    {
+        "date": 2001,
+        "Periodo": "Mayo",
+        
+        "Valor": 14
+    },
+    {
+        "date": 2001,
+        "Periodo": "Junio",
+      
+        "Valor": 15.3
+    },
+    {
+        "date": 2001,
+        "Periodo": "Julio",
+        
+        "Valor": 15.2
+    },
+    {
+        "date": 2001,
+        "Periodo": "Agosto",
+       
+        "Valor": 14.9
+    },
+    {
+        "date": 2001,
+        "Periodo": "Septiembre",
+        
+        "Valor": 14.1
+    },
+    {
+        "date": 2001,
+        "Periodo": "Octubre",
+        
+        "Valor": 14.5
+    },
+    {
+        "date": 2001,
+        "Periodo": "Noviembre",
+        
+        "Valor": 13.7
+    },
+    {
+        "date": 2001,
+        "Periodo": "Diciembre",
+       
+        "Valor": 13.6
+    },
+    {
+        "date": 2002,
+        "Periodo": "Enero",
+       
+        "Valor": 17.9
+    },
+    {
+        "date": 2002,
+        "Periodo": "Febrero",
+       
+        "Valor": 16.2
+    },
+    {
+        "date": 2002,
+        "Periodo": "Marzo",
+       
+        "Valor": 15.1
+    },
+    {
+        "date": 2002,
+        "Periodo": "Abril",
+       
+        "Valor": 16.1
+    },
+    {
+        "date": 2002,
+        "Periodo": "Mayo",
+        
+        "Valor": 15
+    },
+    {
+        "date": 2002,
+        "Periodo": "Junio",
+      
+        "Valor": 15.9
+    },
+    {
+        "date": 2002,
+        "Periodo": "Julio",
+        
+        "Valor": 15.4
+    },
+    {
+        "date": 2002,
+        "Periodo": "Agosto",
+       
+        "Valor": 16
+    },
+    {
+        "date": 2002,
+        "Periodo": "Septiembre",
+        
+        "Valor": 14.5
+    },
+    {
+        "date": 2002,
+        "Periodo": "Octubre",
+        
+        "Valor": 15
+    },
+    {
+        "date": 2002,
+        "Periodo": "Noviembre",
+        
+        "Valor": 15.2
+    },
+    {
+        "date": 2002,
+        "Periodo": "Diciembre",
+       
+        "Valor": 15.4
+    },
+    {
+        "date": 2003,
+        "Periodo": "Enero",
+       
+        "Valor": 16.3
+    },
+    {
+        "date": 2003,
+        "Periodo": "Febrero",
+       
+        "Valor": 15.8
+    },
+    {
+        "date": 2003,
+        "Periodo": "Marzo",
+       
+        "Valor": 13.1
+    },
+    {
+        "date": 2003,
+        "Periodo": "Abril",
+       
+        "Valor": 15
+    },
+    {
+        "date": 2003,
+        "Periodo": "Mayo",
+        
+        "Valor": 12.8
+    },
+    {
+        "date": 2003,
+        "Periodo": "Junio",
+      
+        "Valor": 14.1
+    },
+    {
+        "date": 2003,
+        "Periodo": "Julio",
+        
+        "Valor": 14.5
+    },
+    {
+        "date": 2003,
+        "Periodo": "Agosto",
+       
+        "Valor": 14.4
+    },
+    {
+        "date": 2003,
+        "Periodo": "Septiembre",
+        
+        "Valor": 14.2
+    },
+    {
+        "date": 2003,
+        "Periodo": "Octubre",
+        
+        "Valor": 13.5
+    },
+    {
+        "date": 2003,
+        "Periodo": "Noviembre",
+        
+        "Valor": 12.6
+    },
+    {
+        "date": 2003,
+        "Periodo": "Diciembre",
+       
+        "Valor": 12.6
+    },
+    {
+        "date": 2004,
+        "Periodo": "Enero",
+       
+        "Valor": 17.3
+    },
+    {
+        "date": 2004,
+        "Periodo": "Febrero",
+       
+        "Valor": 15.8
+    },
+    {
+        "date": 2004,
+        "Periodo": "Marzo",
+       
+        "Valor": 13.5
+    },
+    {
+        "date": 2004,
+        "Periodo": "Abril",
+       
+        "Valor": 14.7
+    },
+    {
+        "date": 2004,
+        "Periodo": "Mayo",
+        
+        "Valor": 13.8
+    },
+    {
+        "date": 2004,
+        "Periodo": "Junio",
+      
+        "Valor": 14.1
+    },
+    {
+        "date": 2004,
+        "Periodo": "Julio",
+        
+        "Valor": 12.9
+    },
+    {
+        "date": 2004,
+        "Periodo": "Agosto",
+       
+        "Valor": 13.1
+    },
+    {
+        "date": 2004,
+        "Periodo": "Septiembre",
+        
+        "Valor": 12.3
+    },
+    {
+        "date": 2004,
+        "Periodo": "Octubre",
+        
+        "Valor": 12.3
+    },
+    {
+        "date": 2004,
+        "Periodo": "Noviembre",
+        
+        "Valor": 11.8
+    },
+    {
+        "date": 2004,
+        "Periodo": "Diciembre",
+       
+        "Valor": 12
+    },
+    {
+        "date": 2005,
+        "Periodo": "Enero",
+        
+        "Valor": 13.3
+    },
+    {
+        "date": 2005,
+        "Periodo": "Febrero",
+       
+        "Valor": 14.1
+    },
+    {
+        "date": 2005,
+        "Periodo": "Marzo",
+       
+        "Valor": 13
+    },
+    {
+        "date": 2005,
+        "Periodo": "Abril",
+       
+        "Valor": 12
+    },
+    {
+        "date": 2005,
+        "Periodo": "Mayo",
+        
+        "Valor": 12.5
+    },
+    {
+        "date": 2005,
+        "Periodo": "Junio",
+      
+        "Valor": 11.5
+    },
+    {
+        "date": 2005,
+        "Periodo": "Julio",
+        
+        "Valor": 12
+    },
+    {
+        "date": 2005,
+        "Periodo": "Agosto",
+       
+        "Valor": 11.7
+    },
+    {
+        "date": 2005,
+        "Periodo": "Septiembre",
+        
+        "Valor": 11.3
+    },
+    {
+        "date": 2005,
+        "Periodo": "Octubre",
+        
+        "Valor": 9.9
+    },
+    {
+        "date": 2005,
+        "Periodo": "Noviembre",
+        
+        "Valor": 10.3
+    },
+    {
+        "date": 2005,
+        "Periodo": "Diciembre",
+       
+        "Valor": 10.3
+    },
+    {
+        "date": 2006,
+        "Periodo": "Enero",
+      
+        "Valor": 13.4
+    },
+    {
+        "date": 2006,
+        "Periodo": "Febrero",
+       
+        "Valor": 13.1
+    },
+    {
+        "date": 2006,
+        "Periodo": "Marzo",
+       
+        "Valor": 11.4
+    },
+    {
+        "date": 2006,
+        "Periodo": "Abril",
+       
+        "Valor": 12.1
+    },
+    {
+        "date": 2006,
+        "Periodo": "Mayo",
+        
+        "Valor": 11.9
+    },
+    {
+        "date": 2006,
+        "Periodo": "Junio",
+      
+        "Valor": 10.5
+    },
+    {
+        "date": 2006,
+        "Periodo": "Julio",
+        
+        "Valor": 12.3
+    },
+    {
+        "date": 2006,
+        "Periodo": "Agosto",
+       
+        "Valor": 13
+    },
+    {
+        "date": 2006,
+        "Periodo": "Septiembre",
+        
+        "Valor": 12.9
+    },
+    {
+        "date": 2006,
+        "Periodo": "Octubre",
+        
+        "Valor": 11.4
+    },
+    {
+        "date": 2006,
+        "Periodo": "Noviembre",
+        
+        "Valor": 11
+    },
+    {
+        "date": 2006,
+        "Periodo": "Diciembre",
+       
+        "Valor": 11.8
+    },
+    {
+        "date": 2007,
+        "Periodo": "Enero",
+        
+        "Valor": 14.3
+    },
+    {
+        "date": 2007,
+        "Periodo": "Febrero",
+       
+        "Valor": 12.9
+    },
+    {
+        "date": 2007,
+        "Periodo": "Marzo",
+       
+        "Valor": 12
+    },
+    {
+        "date": 2007,
+        "Periodo": "Abril",
+       
+        "Valor": 10.8
+    },
+    {
+        "date": 2007,
+        "Periodo": "Mayo",
+        
+        "Valor": 11.7
+    },
+    {
+        "date": 2007,
+        "Periodo": "Junio",
+      
+        "Valor": 11.2
+    },
+    {
+        "date": 2007,
+        "Periodo": "Julio",
+        
+        "Valor": 11.4
+    },
+    {
+        "date": 2007,
+        "Periodo": "Agosto",
+       
+        "Valor": 10.9
+    },
+    {
+        "date": 2007,
+        "Periodo": "Septiembre",
+        
+        "Valor": 10.9
+    },
+    {
+        "date": 2007,
+        "Periodo": "Octubre",
+        
+        "Valor": 10.2
+    },
+    {
+        "date": 2007,
+        "Periodo": "Noviembre",
+        
+        "Valor": 9.5
+    },
+    {
+        "date": 2007,
+        "Periodo": "Diciembre",
+       
+        "Valor": 9.9
+    },
+    {
+        "date": 2008,
+        "Periodo": "Enero",
+        
+        "Valor": 13.3
+    },
+    {
+        "date": 2008,
+        "Periodo": "Febrero",
+       
+        "Valor": 12.2
+    },
+    {
+        "date": 2008,
+        "Periodo": "Marzo",
+       
+        "Valor": 11.3
+    },
+    {
+        "date": 2008,
+        "Periodo": "Abril",
+       
+        "Valor": 11.1
+    },
+    {
+        "date": 2008,
+        "Periodo": "Mayo",
+        
+        "Valor": 10.8
+    },
+    {
+        "date": 2008,
+        "Periodo": "Junio",
+      
+        "Valor": 11.4
+    },
+    {
+        "date": 2008,
+        "Periodo": "Julio",
+        
+        "Valor": 12.2
+    },
+    {
+        "date": 2008,
+        "Periodo": "Agosto",
+       
+        "Valor": 11.4
+    },
+    {
+        "date": 2008,
+        "Periodo": "Septiembre",
+        
+        "Valor": 11
+    },
+    {
+        "date": 2008,
+        "Periodo": "Octubre",
+        
+        "Valor": 10.2
+    },
+    {
+        "date": 2008,
+        "Periodo": "Noviembre",
+        
+        "Valor": 10.9
+    },
+    {
+        "date": 2008,
+        "Periodo": "Diciembre",
+       
+        "Valor": 10.8
+    },
+    {
+        "date": 2009,
+        "Periodo": "Enero",
+       
+        "Valor": 14.5
+    },
+    {
+        "date": 2009,
+        "Periodo": "Febrero",
+       
+        "Valor": 12.8
+    },
+    {
+        "date": 2009,
+        "Periodo": "Marzo",
+       
+        "Valor": 12.2
+    },
+    {
+        "date": 2009,
+        "Periodo": "Abril",
+       
+        "Valor": 12.1
+    },
+    {
+        "date": 2009,
+        "Periodo": "Mayo",
+        
+        "Valor": 11.8
+    },
+    {
+        "date": 2009,
+        "Periodo": "Junio",
+      
+        "Valor": 11.6
+    },
+    {
+        "date": 2009,
+        "Periodo": "Julio",
+        
+        "Valor": 12.8
+    },
+    {
+        "date": 2009,
+        "Periodo": "Agosto",
+       
+        "Valor": 11.9
+    },
+    {
+        "date": 2009,
+        "Periodo": "Septiembre",
+        
+        "Valor": 12.4
+    },
+    {
+        "date": 2009,
+        "Periodo": "Octubre",
+        
+        "Valor": 11.8
+    },
+    {
+        "date": 2009,
+        "Periodo": "Noviembre",
+        
+        "Valor": 11.4
+    },
+    {
+        "date": 2009,
+        "Periodo": "Diciembre",
+       
+        "Valor": 11.3
+    },
+    {
+        "date": 2010,
+        "Periodo": "Enero",
+       
+        "Valor": 14.9
+    },
+    {
+        "date": 2010,
+        "Periodo": "Febrero",
+       
+        "Valor": 12.7
+    },
+    {
+        "date": 2010,
+        "Periodo": "Marzo",
+       
+        "Valor": 12
+    },
+    {
+        "date": 2010,
+        "Periodo": "Abril",
+       
+        "Valor": 12.4
+    },
+    {
+        "date": 2010,
+        "Periodo": "Mayo",
+        
+        "Valor": 12.3
+    },
+    {
+        "date": 2010,
+        "Periodo": "Junio",
+      
+        "Valor": 12
+    },
+    {
+        "date": 2010,
+        "Periodo": "Julio",
+        
+        "Valor": 12.9
+    },
+    {
+        "date": 2010,
+        "Periodo": "Agosto",
+       
+        "Valor": 11.4
+    },
+    {
+        "date": 2010,
+        "Periodo": "Septiembre",
+        
+        "Valor": 10.9
+    },
+    {
+        "date": 2010,
+        "Periodo": "Octubre",
+        
+        "Valor": 10.5
+    },
+    {
+        "date": 2010,
+        "Periodo": "Noviembre",
+        
+        "Valor": 10.9
+    },
+    {
+        "date": 2010,
+        "Periodo": "Diciembre",
+       
+        "Valor": 11.2
+    },
+    {
+        "date": 2011,
+        "Periodo": "Enero",
+       
+        "Valor": 13.9
+    },
+    {
+        "date": 2011,
+        "Periodo": "Febrero",
+       
+        "Valor": 13.1
+    },
+    {
+        "date": 2011,
+        "Periodo": "Marzo",
+       
+        "Valor": 10.9
+    },
+    {
+        "date": 2011,
+        "Periodo": "Abril",
+       
+        "Valor": 11.3
+    },
+    {
+        "date": 2011,
+        "Periodo": "Mayo",
+        
+        "Valor": 11.6
+    },
+    {
+        "date": 2011,
+        "Periodo": "Junio",
+      
+        "Valor": 11
+    },
+    {
+        "date": 2011,
+        "Periodo": "Julio",
+        
+        "Valor": 11.7
+    },
+    {
+        "date": 2011,
+        "Periodo": "Agosto",
+       
+        "Valor": 10.4
+    },
+    {
+        "date": 2011,
+        "Periodo": "Septiembre",
+        
+        "Valor": 9.9
+    },
+    {
+        "date": 2011,
+        "Periodo": "Octubre",
+        
+        "Valor": 9.4
+    },
+    {
+        "date": 2011,
+        "Periodo": "Noviembre",
+        
+        "Valor": 9.5
+    },
+    {
+        "date": 2011,
+        "Periodo": "Diciembre",
+       
+        "Valor": 10.1
+    },
+    {
+        "date": 2012,
+        "Periodo": "Enero",
+        
+        "Valor": 12.8
+    },
+    {
+        "date": 2012,
+        "Periodo": "Febrero",
+       
+        "Valor": 12.1
+    },
+    {
+        "date": 2012,
+        "Periodo": "Marzo",
+       
+        "Valor": 10.5
+    },
+    {
+        "date": 2012,
+        "Periodo": "Abril",
+       
+        "Valor": 11.1
+    },
+    {
+        "date": 2012,
+        "Periodo": "Mayo",
+        
+        "Valor": 11
+    },
+    {
+        "date": 2012,
+        "Periodo": "Junio",
+      
+        "Valor": 10.2
+    },
+    {
+        "date": 2012,
+        "Periodo": "Julio",
+        
+        "Valor": 11.2
+    },
+    {
+        "date": 2012,
+        "Periodo": "Agosto",
+       
+        "Valor": 10
+    },
+    {
+        "date": 2012,
+        "Periodo": "Septiembre",
+        
+        "Valor": 10.1
+    },
+    {
+        "date": 2012,
+        "Periodo": "Octubre",
+        
+        "Valor": 9.2
+    },
+    {
+        "date": 2012,
+        "Periodo": "Noviembre",
+        
+        "Valor": 9.5
+    },
+    {
+        "date": 2012,
+        "Periodo": "Diciembre",
+       
+        "Valor": 9.9
+    },
+    {
+        "date": 2013,
+        "Periodo": "Enero",
+        
+        "Valor": 12.3
+    },
+    {
+        "date": 2013,
+        "Periodo": "Febrero",
+       
+        "Valor": 12
+    },
+    {
+        "date": 2013,
+        "Periodo": "Marzo",
+       
+        "Valor": 10.4
+    },
+    {
+        "date": 2013,
+        "Periodo": "Abril",
+       
+        "Valor": 10.5
+    },
+    {
+        "date": 2013,
+        "Periodo": "Mayo",
+        
+        "Valor": 9.8
+    },
+    {
+        "date": 2013,
+        "Periodo": "Junio",
+      
+        "Valor": 9.5
+    },
+    {
+        "date": 2013,
+        "Periodo": "Julio",
+        
+        "Valor": 10.2
+    },
+    {
+        "date": 2013,
+        "Periodo": "Agosto",
+       
+        "Valor": 9.7
+    },
+    {
+        "date": 2013,
+        "Periodo": "Septiembre",
+        
+        "Valor": 9.2
+    },
+    {
+        "date": 2013,
+        "Periodo": "Octubre",
+        
+        "Valor": 8.1
+    },
+    {
+        "date": 2013,
+        "Periodo": "Noviembre",
+        
+        "Valor": 8.6
+    },
+    {
+        "date": 2013,
+        "Periodo": "Diciembre",
+       
+        "Valor": 8.6
+    },
+    {
+        "date": 2014,
+        "Periodo": "Enero",
+       
+        "Valor": 11.5
+    },
+    {
+        "date": 2014,
+        "Periodo": "Febrero",
+       
+        "Valor": 11.1
+    },
+    {
+        "date": 2014,
+        "Periodo": "Marzo",
+       
+        "Valor": 9.8
+    },
+    {
+        "date": 2014,
+        "Periodo": "Abril",
+       
+        "Valor": 9.3
+    },
+    {
+        "date": 2014,
+        "Periodo": "Mayo",
+        
+        "Valor": 9.1
+    },
+    {
+        "date": 2014,
+        "Periodo": "Junio",
+      
+        "Valor": 9.4
+    },
+    {
+        "date": 2014,
+        "Periodo": "Julio",
+        
+        "Valor": 9.7
+    },
+    {
+        "date": 2014,
+        "Periodo": "Agosto",
+       
+        "Valor": 9.2
+    },
+    {
+        "date": 2014,
+        "Periodo": "Septiembre",
+        
+        "Valor": 8.6
+    },
+    {
+        "date": 2014,
+        "Periodo": "Octubre",
+        
+        "Valor": 8.1
+    },
+    {
+        "date": 2014,
+        "Periodo": "Noviembre",
+        
+        "Valor": 8.1
+    },
+    {
+        "date": 2014,
+        "Periodo": "Diciembre",
+       
+        "Valor": 9
+    },
+    {
+        "date": 2015,
+        "Periodo": "Enero",
+      
+        "Valor": 11.2
+    },
+    {
+        "date": 2015,
+        "Periodo": "Febrero",
+       
+        "Valor": 10.2
+    },
+    {
+        "date": 2015,
+        "Periodo": "Marzo",
+       
+        "Valor": 9.1
+    },
+    {
+        "date": 2015,
+        "Periodo": "Abril",
+       
+        "Valor": 9.7
+    },
+    {
+        "date": 2015,
+        "Periodo": "Mayo",
+        
+        "Valor": 9.2
+    },
+    {
+        "date": 2015,
+        "Periodo": "Junio",
+      
+        "Valor": 8.5
+    },
+    {
+        "date": 2015,
+        "Periodo": "Julio",
+        
+        "Valor": 9.2
+    },
+    {
+        "date": 2015,
+        "Periodo": "Agosto",
+       
+        "Valor": 9.3
+    },
+    {
+        "date": 2015,
+        "Periodo": "Septiembre",
+        
+        "Valor": 9.1
+    },
+    {
+        "date": 2015,
+        "Periodo": "Octubre",
+        
+        "Valor": 8.4
+    },
+    {
+        "date": 2015,
+        "Periodo": "Noviembre",
+        
+        "Valor": 7.6
+    },
+    {
+        "date": 2015,
+        "Periodo": "Diciembre",
+       
+        "Valor": 8.8
+    },
+    {
+        "date": 2016,
+        "Periodo": "Enero",
+        
+        "Valor": 12.2
+    },
+    {
+        "date": 2016,
+        "Periodo": "Febrero",
+       
+        "Valor": 10.4
+    },
+    {
+        "date": 2016,
+        "Periodo": "Marzo",
+       
+        "Valor": 10.5
+    },
+    {
+        "date": 2016,
+        "Periodo": "Abril",
+       
+        "Valor": 9.3
+    },
+    {
+        "date": 2016,
+        "Periodo": "Mayo",
+        
+        "Valor": 9.2
+    },
+    {
+        "date": 2016,
+        "Periodo": "Junio",
+      
+        "Valor": 9.2
+    },
+    {
+        "date": 2016,
+        "Periodo": "Julio",
+        
+        "Valor": 10.2
+    },
+    {
+        "date": 2016,
+        "Periodo": "Agosto",
+       
+        "Valor": 9.2
+    },
+    {
+        "date": 2016,
+        "Periodo": "Septiembre",
+        
+        "Valor": 8.9
+    },
+    {
+        "date": 2016,
+        "Periodo": "Octubre",
+        
+        "Valor": 8.6
+    },
+    {
+        "date": 2016,
+        "Periodo": "Noviembre",
+        
+        "Valor": 7.8
+    },
+    {
+        "date": 2016,
+        "Periodo": "Diciembre",
+       
+        "Valor": 9.1
+    },
+    {
+        "date": 2017,
+        "Periodo": "Enero",
+       
+        "Valor": 12
+    },
+    {
+        "date": 2017,
+        "Periodo": "Febrero",
+       
+        "Valor": 10.9
+    },
+    {
+        "date": 2017,
+        "Periodo": "Marzo",
+       
+        "Valor": 9.9
+    },
+    {
+        "date": 2017,
+        "Periodo": "Abril",
+       
+        "Valor": 9.1
+    },
+    {
+        "date": 2017,
+        "Periodo": "Mayo",
+        
+        "Valor": 9.8
+    },
+    {
+        "date": 2017,
+        "Periodo": "Junio",
+      
+        "Valor": 9
+    },
+    {
+        "date": 2017,
+        "Periodo": "Julio",
+        
+        "Valor": 9.9
+    },
+    {
+        "date": 2017,
+        "Periodo": "Agosto",
+       
+        "Valor": 9.5
+    },
+    {
+        "date": 2017,
+        "Periodo": "Septiembre",
+        
+        "Valor": 9.5
+    },
+    {
+        "date": 2017,
+        "Periodo": "Octubre",
+        
+        "Valor": 8.7
+    },
+    {
+        "date": 2017,
+        "Periodo": "Noviembre",
+        
+        "Valor": 8.8
+    },
+    {
+        "date": 2017,
+        "Periodo": "Diciembre",
+       
+        "Valor": 8.9
+    },
+    {
+        "date": 2018,
+        "Periodo": "Enero",
+       
+        "Valor": 12.1
+    },
+    {
+        "date": 2018,
+        "Periodo": "Febrero",
+       
+        "Valor": 11.2
+    },
+    {
+        "date": 2018,
+        "Periodo": "Marzo",
+       
+        "Valor": 9.8
+    },
+    {
+        "date": 2018,
+        "Periodo": "Abril",
+       
+        "Valor": 9.7
+    },
+    {
+        "date": 2018,
+        "Periodo": "Mayo",
+        
+        "Valor": 10
+    },
+    {
+        "date": 2018,
+        "Periodo": "Junio",
+      
+        "Valor": 9.3
+    },
+    {
+        "date": 2018,
+        "Periodo": "Julio",
+        
+        "Valor": 10
+    },
+    {
+        "date": 2018,
+        "Periodo": "Agosto",
+       
+        "Valor": 9.4
+    },
+    {
+        "date": 2018,
+        "Periodo": "Septiembre",
+        
+        "Valor": 9.7
+    },
+    {
+        "date": 2018,
+        "Periodo": "Octubre",
+        
+        "Valor": 9.4
+    },
+    {
+        "date": 2018,
+        "Periodo": "Noviembre",
+        
+        "Valor": 9
+    },
+    {
+        "date": 2018,
+        "Periodo": "Diciembre",
+       
+        "Valor": 10
+    },
+    {
+        "date": 2019,
+        "Periodo": "Enero",
+       
+        "Valor": 13.1
+    },
+    {
+        "date": 2019,
+        "Periodo": "Febrero",
+       
+        "Valor": 12.1
+    },
+    {
+        "date": 2019,
+        "Periodo": "Marzo",
+       
+        "Valor": 11.2
+    },
+    {
+        "date": 2019,
+        "Periodo": "Abril",
+       
+        "Valor": 10.7
+    },
+    {
+        "date": 2019,
+        "Periodo": "Mayo",
+        
+        "Valor": 11
+    },
+    {
+        "date": 2019,
+        "Periodo": "Junio",
+      
+        "Valor": 9.7
+    },
+    {
+        "date": 2019,
+        "Periodo": "Julio",
+        
+        "Valor": 11.3
+    },
+    {
+        "date": 2019,
+        "Periodo": "Agosto",
+       
+        "Valor": 11.2
+    },
+    {
+        "date": 2019,
+        "Periodo": "Septiembre",
+        
+        "Valor": 10.8
+    },
+    {
+        "date": 2019,
+        "Periodo": "Octubre",
+        
+        "Valor": 10.1
+    },
+    {
+        "date": 2019,
+        "Periodo": "Noviembre",
+        
+        "Valor": 9.6
+    },
+    {
+        "date": 2019,
+        "Periodo": "Diciembre",
+       
+        "Valor": 9.9
+    },
+    {
+        "date": 2020,
+        "Periodo": "Enero",
+        
+        "Valor": 13.5
+    },
+    {
+        "date": 2020,
+        "Periodo": "Febrero",
+       
+        "Valor": 12.8
+    },
+    {
+        "date": 2020,
+        "Periodo": "Marzo",
+       
+        "Valor": 13.2
+    },
+    {
+        "date": 2020,
+        "Periodo": "Abril",
+       
+        "Valor": 20.5
+    },
+    {
+        "date": 2020,
+        "Periodo": "Mayo",
+        
+        "Valor": 22
+    },
+    {
+        "date": 2020,
+        "Periodo": "Junio",
+      
+        "Valor": 20.4
+    },
+    {
+        "date": 2020,
+        "Periodo": "Julio",
+        
+        "Valor": 20.9
+    },
+    {
+        "date": 2020,
+        "Periodo": "Agosto",
+       
+        "Valor": 17.4
+    },
+    {
+        "date": 2020,
+        "Periodo": "Septiembre",
+        
+        "Valor": 16.3
+    },
+    {
+        "date": 2020,
+        "Periodo": "Octubre",
+        
+        "Valor": 15.3
+    },
+    {
+        "date": 2020,
+        "Periodo": "Noviembre",
+        
+        "Valor": 13.9
+    },
+    {
+        "date": 2020,
+        "Periodo": "Diciembre",
+       
+        "Valor": 13.9
+    },
+    {
+        "date": 2021,
+        "Periodo": "Enero",
+        
+        "Valor": 17.6
+    },
+    {
+        "date": 2021,
+        "Periodo": "Febrero",
+       
+        "Valor": 15.6
+    },
+    {
+        "date": 2021,
+        "Periodo": "Marzo",
+       
+        "Valor": 14.7
+    },
+    {
+        "date": 2021,
+        "Periodo": "Abril",
+       
+        "Valor": 15.5
+    },
+    {
+        "date": 2021,
+        "Periodo": "Mayo",
+        
+        "Valor": 15.2
+    },
+    {
+        "date": 2021,
+        "Periodo": "Junio",
+      
+        "Valor": 14.6
+    },
+    {
+        "date": 2021,
+        "Periodo": "Julio",
+        
+        "Valor": 13.1
+    },
+    {
+        "date": 2021,
+        "Periodo": "Agosto",
+       
+        "Valor": 12.9
+    },
+    {
+        "date": 2021,
+        "Periodo": "Septiembre",
+        
+        "Valor": 12
+    },
+    {
+        "date": 2021,
+        "Periodo": "Octubre",
+        
+        "Valor": 12
+    },
+    {
+        "date": 2021,
+        "Periodo": "Noviembre",
+        
+        "Valor": 11.5
+    },
+    {
+        "date": 2021,
+        "Periodo": "Diciembre",
+       
+        "Valor": 11.1
+    },
+    {
+        "date": 2022,
+        "Periodo": "Enero",
+      
+        "Valor": 14.6
+    },
+    {
+        "date": 2022,
+        "Periodo": "Febrero",
+       
+        "Valor": 12.9
+    },
+    {
+        "date": 2022,
+        "Periodo": "Marzo",
+       
+        "Valor": 12.1
+    },
+    {
+        "date": 2022,
+        "Periodo": "Abril",
+       
+        "Valor": 11.2
+    },
+    {
+        "date": 2022,
+        "Periodo": "Mayo",
+        
+        "Valor": 10.6
+    },
+    {
+        "date": 2022,
+        "Periodo": "Junio",
+      
+        "Valor": 11.3
+    },
+    {
+        "date": 2022,
+        "Periodo": "Julio",
+        
+        "Valor": 11
+    },
+    {
+        "date": 2022,
+        "Periodo": "Agosto",
+       
+        "Valor": 10.6
+    },
+    {
+        "date": 2022,
+        "Periodo": "Septiembre",
+        
+        "Valor": 10.7
+    },
+    {
+        "date": 2022,
+        "Periodo": "Octubre",   
+        "Valor": 9.7
+    },
+    {
+        "date": 2022,
+        "Periodo": "Noviembre",
+        
+        "Valor": 9.5
+    },
+    {
+        "date": 2022,
+        "Periodo": "Diciembre",
+       
+        "Valor": 10.3
+    }
+]

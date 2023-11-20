@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 import {
   BadgeDelta,
   Button,
@@ -24,35 +25,49 @@ import {
 
 const stocks = [
   {
-    name: "Off Running AG",
-    value: 10456,
-    performance: "6.1%",
-    deltaType: "increase",
-  },
+    "fecha": "11\/17\/2023",
+    "valor": 4092
+   },
   {
-    name: "Not Normal Inc.",
-    value: 5789,
-    performance: "1.2%",
-    deltaType: "moderateDecrease",
-  },
+    "fecha": "10\/31\/2023",
+    "valor": 4118
+   },
   {
-    name: "Logibling Inc.",
-    value: 4367,
-    performance: "2.3%",
-    deltaType: "moderateIncrease",
-  },
+    "fecha": "09\/29\/2023",
+    "valor": 4078.5
+   },
   {
-    name: "Raindrop Inc.",
-    value: 3421,
-    performance: "0.5%",
-    deltaType: "moderateDecrease",
-  },
+    "fecha": "08\/31\/2023",
+    "valor": 4088.1
+   },
   {
-    name: "Mwatch Group",
-    value: 1432,
-    performance: "3.4%",
-    deltaType: "decrease",
-  },
+    "fecha": "07\/31\/2023",
+    "valor": 3930
+   },
+  {
+    "fecha": "06\/30\/2023",
+    "valor": 4175
+   },
+  {
+    "fecha": "05\/31\/2023",
+    "valor": 4445.05
+   },
+  {
+    "fecha": "04\/28\/2023",
+    "valor": 4696.43
+   },
+  {
+    "fecha": "03\/31\/2023",
+    "valor": 4654.55
+   },
+  {
+    "fecha": "02\/28\/2023",
+    "valor": 4856.85
+   },
+  {
+    "fecha": "01\/31\/2023",
+    "valor": 4665.05
+   },
 ];
 
 const dataFormatter = (number) => {
@@ -62,48 +77,46 @@ const dataFormatter = (number) => {
 const SalesItem = () => {
   const [selectedIndex, setSelectedIndex] = useState(0);
 
+
   return (
     <Card className="max-w-full mx-auto">
       <Flex className="space-x-8 flex-col lg:flex-row">
-        <Title>Overview</Title>
+        <Title>CriptoMoneda</Title>
         <TabGroup index={selectedIndex} onIndexChange={setSelectedIndex}>
           <TabList variant="solid">
-            <Tab icon={ChartPieIcon}>Chart</Tab>
-            <Tab icon={ViewListIcon}>List</Tab>
+            <Tab icon={ChartPieIcon}>BTC</Tab>
+            <Tab icon={ViewListIcon}>LIST</Tab>
           </TabList>
         </TabGroup>
       </Flex>
-      <Text className="mt-8">Portfolio Value</Text>
-      <Metric>$ 25,465</Metric>
       <Divider />
       <Text className="mt-8">
-        <Bold>Asset Allocation</Bold>
+        <Bold>Precio Mensual Ultimo Año</Bold>
       </Text>
-      <Text>1 Asset class - 5 Holdings</Text>
       {selectedIndex === 0 ? (
         <DonutChart
           data={stocks}
           valueFormatter={dataFormatter}
-          showAnimation={false}
-          category="value"
-          index="name"
+          showAnimation={true}
+          category="valor"
+          index="fecha"
           className="mt-6"
         />
       ) : (
         <>
           <Flex className="mt-8" justifyContent="between">
             <Text className="truncate">
-              <Bold>Stocks</Bold>
+              <Bold>Fecha</Bold>
             </Text>
-            <Text>Since transaction</Text>
+            <Text>Precio</Text>
           </Flex>
           <List className="mt-4">
             {stocks.map((stock) => (
-              <ListItem key={stock.name}>
-                <Text>{stock.name}</Text>
+              <ListItem key={stock.fecha}>
+                <Text>{stock.fecha}</Text>
                 <Flex className="space-x-2" justifyContent="end">
                   <Text>
-                    $ {Intl.NumberFormat("us").format(stock.value).toString()}
+                    $ {Intl.NumberFormat("us").format(stock.valor).toString()}
                   </Text>
                 </Flex>
               </ListItem>
@@ -112,14 +125,7 @@ const SalesItem = () => {
         </>
       )}
       <Flex className="mt-6 pt-4 border-t">
-        <Button
-          size="xs"
-          variant="light"
-          icon={ArrowRightIcon}
-          iconPosition="right"
-        >
-          View more
-        </Button>
+  
       </Flex>
     </Card>
   );

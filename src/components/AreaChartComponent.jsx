@@ -1,56 +1,68 @@
 import React from "react";
 import { Card, Title, AreaChart } from "@tremor/react";
+import chartData from "./PIB.json";
+import deschartData from "./Desempleo.json";
+import infchartData from "./Inflacion.json";
 
-const chartdata = [
-  {
-    date: "Jan 22",
-    SemiAnalysis: 2890,
-    "The Pragmatic Engineer": 2338,
-  },
-  {
-    date: "Feb 22",
-    SemiAnalysis: 2756,
-    "The Pragmatic Engineer": 2103,
-  },
-  {
-    date: "Mar 22",
-    SemiAnalysis: 3322,
-    "The Pragmatic Engineer": 2194,
-  },
-  {
-    date: "Apr 22",
-    SemiAnalysis: 3470,
-    "The Pragmatic Engineer": 2108,
-  },
-  {
-    date: "May 22",
-    SemiAnalysis: 3475,
-    "The Pragmatic Engineer": 1812,
-  },
-  {
-    date: "Jun 22",
-    SemiAnalysis: 3129,
-    "The Pragmatic Engineer": 1726,
-  },
-];
-
+// Resto del código
 const dataFormatter = (number) => {
-  return "$ " + Intl.NumberFormat("us").format(number).toString();
+  return "% " + Intl.NumberFormat("us").format(number).toString();
 };
 
 const AreaChartComponent = () => {
+  // Filtra los datos para obtener los datos de fecha y precio por separado
+  const precioData = chartData.map(({ date, Precio }) => ({ date, Precio }));
+
+  const desfechaData = deschartData.map(({ date, Periodo }) => ({ date, Periodo }));
+  const desprecioData = deschartData.map(({ date, Valor }) => ({ date, Valor }));
+
+  const infprecioData = infchartData.map(({ date, Valor }) => ({ date, Valor }));
+
   return (
-    <Card className="mt-4">
-      <Title>Newsletter revenue over time (USD)</Title>
-      <AreaChart
-        className="h-72 mt-4"
-        data={chartdata}
-        index="date"
-        categories={["SemiAnalysis", "The Pragmatic Engineer"]}
-        colors={["indigo", "cyan"]}
-        valueFormatter={dataFormatter}
-      />
-    </Card>
+    <div>
+
+      {/* Gráfico para el PIB */}
+      <Card className="mt-4">
+        <Title>PRODUCTO INTERNO BRUTO</Title>
+        <AreaChart
+          className="h-72 mt-4"
+          data={precioData}
+          showAnimation={true}
+          index="date"
+          categories={["Precio"]}
+          colors={["cyan"]}
+          valueFormatter={dataFormatter}
+        />
+      </Card>
+
+      {/* Gráfico para Desempleo */}
+      <Card className="mt-4">
+        <Title>Tasa de Desempleo</Title>
+        <AreaChart
+          className="h-72 mt-4"
+          data={desprecioData}
+          showAnimation={true}
+          index="date"
+          categories={["Valor"]}
+          colors={["green"]}
+          valueFormatter={dataFormatter}
+        />
+      </Card>
+
+      {/* Gráfico para Inflacion */}
+      <Card className="mt-4">
+        <Title>Inflacion</Title>
+        <AreaChart
+          className="h-72 mt-4"
+          data={infprecioData}
+          showAnimation={true}
+          index="date"
+          categories={["Valor"]}
+          colors={["red"]}
+          valueFormatter={dataFormatter}
+        />
+      </Card>
+    </div>
   );
 };
 
