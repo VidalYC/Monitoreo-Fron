@@ -11,6 +11,7 @@ import Navbar from "./components/Navbar";
 import RightColumn from "./components/RightColumn";
 import F from './F'
 import './App.css'
+import EditarPerfil from './components/Perfil.jsx'
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
           <Route exact path='/pass' Component={Pass}/>
           <Route exact path='/pass' Component={Pass}/>
           <Route exact path='/f' Component={F}/>
+          <Route exact path='/perfil' Component={EditarPerfil}/>
         </Routes>
       </BrowserRouter>
     </>
