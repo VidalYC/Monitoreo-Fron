@@ -51,6 +51,7 @@ const EditarPerfil = () => {
                 name="nombre"
                 value={nombre}
                 onChange={(e) => setNombre(e.target.value)}
+                style={{ color: 'black' }}
               />
               <label className="uppercase font-bold text-white">Telefono</label>
               <input
@@ -59,6 +60,7 @@ const EditarPerfil = () => {
                 name="telefono"
                 value={telefono}
                 onChange={(e) => setTelefono(e.target.value)}
+                style={{ color: 'black' }}
               />
               <label className="uppercase font-bold text-white">Email</label>
               <input
@@ -67,6 +69,7 @@ const EditarPerfil = () => {
                 name="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
+                style={{ color: 'black' }}
               />
             </div>
             <input

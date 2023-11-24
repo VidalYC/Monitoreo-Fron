@@ -8,7 +8,6 @@ const RightColumn = () => {
     <div className="w-full p-2">
       <SalesItem />
       <WebAnalytics />
-      <ScoreList />
     </div>
   );
 };
