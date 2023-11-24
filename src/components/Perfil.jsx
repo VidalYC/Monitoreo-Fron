@@ -47,7 +47,7 @@ const EditarPerfil = () => {
               <label className="uppercase font-bold text-white">Nombre</label>
               <input
                 type="text"
-                className="border bg-gray-900 w-full p-2 mt-2 rounded-lg"
+                className="border bg-gray-300 w-full p-2 mt-2 rounded-lg"
                 name="nombre"
                 value={nombre}
                 onChange={(e) => setNombre(e.target.value)}
@@ -55,7 +55,7 @@ const EditarPerfil = () => {
               <label className="uppercase font-bold text-white">Telefono</label>
               <input
                 type="text"
-                className="border bg-gray-900 w-full p-2 mt-2 rounded-lg"
+                className="border bg-gray-300 w-full p-2 mt-2 rounded-lg"
                 name="telefono"
                 value={telefono}
                 onChange={(e) => setTelefono(e.target.value)}
@@ -63,7 +63,7 @@ const EditarPerfil = () => {
               <label className="uppercase font-bold text-white">Email</label>
               <input
                 type="text"
-                className="border bg-gray-900 w-full p-2 mt-2 rounded-lg"
+                className="border bg-gray-300 w-full p-2 mt-2 rounded-lg"
                 name="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}

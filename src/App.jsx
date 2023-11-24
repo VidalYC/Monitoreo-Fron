@@ -12,6 +12,7 @@ import RightColumn from "./components/RightColumn";
 import F from './F'
 import './App.css'
 import EditarPerfil from './components/Perfil.jsx'
+import Inversiones from './components/Inversiones.jsx';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
           <Route exact path='/pass' Component={Pass}/>
           <Route exact path='/f' Component={F}/>
           <Route exact path='/perfil' Component={EditarPerfil}/>
+          <Route exact path='/inversion' Component={Inversiones}/>
         </Routes>
       </BrowserRouter>
     </>
